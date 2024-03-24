@@ -1,0 +1,39 @@
+.app {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.wallet-info-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  place-content: center;
+  gap: 0.5rem;
+  border-radius: .5rem;
+  aspect-ratio: 2/1;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 .5rem .25rem rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+  width: 14rem;
+  text-overflow: wrap;
+}
+
+.input, .button {
+  height: 2rem;
+  padding: .5rem 1rem;
+  border-radius: .25rem;
+  border: none;
+}
+
+.button {
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
+}
